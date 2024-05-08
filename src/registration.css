@@ -1,0 +1,176 @@
+.registration {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 52px 80px;
+}
+
+.registration-2 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  border: 2px solid red;
+}
+
+
+.img-logo {
+ width: 100%;
+ height: 50px;
+ align-items: flex-start;
+  object-fit: contain;
+ position: relative;
+  left: 0px;
+}
+
+.input-container {
+  border-radius: 40px;
+  border-color: rgba(202, 202, 202, 1);
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+
+.input-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.spaninput {
+  display: flex;
+  flex-direction: column;
+  stroke-width: 2px;
+  stroke: var(--Neutral-900, #0c1319);
+  overflow: hidden;
+  border-color: rgba(12, 19, 25, 1);
+  border-style: solid;
+  border-width: 2px;
+  position: relative;
+  display: flex;
+  aspect-ratio: 1;
+  width: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-2 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-33 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  stroke-width: 2px;
+  stroke: var(--Neutral-900, #0c1319);
+  border-color: rgba(12, 19, 25, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.input-heading {
+  color: #2da950;
+  letter-spacing: -0.72px;
+  margin-top: 45px;
+  font: 400 36px/110% Covered By Your Grace, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+.sub-heading {
+  color: #1c1c1c;
+  text-align: center;
+  letter-spacing: -1.12px;
+  margin-top: 16px;
+  width: 588px;
+  font: 600 56px/67px Manrope, sans-serif;
+}
+
+.input-name {
+  align-items: start;
+  border-radius: 64px;
+  border-color: rgba(0, 0, 0, 0.02);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #efefef;
+  margin-top: 62px;
+  width: 417px;
+  max-width: 100%;
+  color: #000;
+  text-align: center;
+  justify-content: center;
+  padding: 24px 36px;
+  font: 500 20px Manrope, sans-serif;
+}
+
+.input-email {
+  align-items: start;
+  border-radius: 64px;
+  border-color: rgba(83, 127, 241, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #f5f8ff;
+  margin-top: 24px;
+  width: 417px;
+  max-width: 100%;
+  color: #000;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: center;
+  padding: 24px 36px;
+  font: 500 20px Manrope, sans-serif;
+}
+
+.email-error {
+  display: flex;
+  margin-top: 12px;
+  width: 417px;
+  max-width: 100%;
+  gap: 7px;
+  font-size: 16px;
+  color: #ff0808;
+  font-weight: 500;
+  text-align: center;
+}
+
+.img-4 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 20px;
+  align-self: start;
+}
+
+.valid-email {
+  font-family: Manrope, sans-serif;
+}
+
+.submit-button {
+  justify-content: center;
+  align-items: center;
+  border-radius: 107.056px;
+  background: linear-gradient(0deg, #1c1c1c 0%, #1c1c1c 100%),
+    linear-gradient(98deg, #1c1c1c 2.63%, #454444 105.2%);
+  margin-top: 47px;
+  width: 417px;
+  max-width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 26px 50px 26px 42px;
+  font: 600 18px Manrope, sans-serif;
+}
