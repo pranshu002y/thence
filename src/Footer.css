@@ -9,10 +9,11 @@
     display: flex;
     margin-top: 20px;
     width: 100%;
+    min-height: 30px;
     flex-direction: column;
     font-size: 18px;
     color: #1c1c1c;
-    padding: 60px 48px;
+    padding: 20px 20px;
   }
  
   .footer-heading {
@@ -46,4 +47,49 @@
   .span-end-2 {
     font-family: Manrope, sans-serif;
     text-decoration-line: underline;
+  }
+
+  @media (max-width: 768px) {
+    .footer {
+      padding: 40px 20px;
+     
+      margin-top: 150px;
+     height: 30px;
+     align-items: center;
+  
+    }
+    
+    .footer-heading,
+    .footer-end {
+   
+      align-items: center;
+    }
+    
+    .footer-image,
+    .span-footer,
+    .span-end-1,
+    .span-end-2 {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 320px) {
+    .footer {
+      padding: 20px 20px;
+    
+     align-items: center;
+  
+    }
+    
+    .footer-heading,
+    .footer-end {
+   
+      align-items: center;
+    }
+    
+    .footer-image,
+    .span-footer,
+    .span-end-1,
+    .span-end-2 {
+      margin-top: 20px;
+    }
   }
