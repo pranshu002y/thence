@@ -1,5 +1,5 @@
 import React from "react";
-import "./Ask.css"
+import "./ask.css"
 const Ask =()=>{
   
     return(
