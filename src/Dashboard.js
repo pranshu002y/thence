@@ -1,10 +1,28 @@
 import React from "react";
+import "./dashboard.css";
+import "./header.css";
+import { useNavigate } from "react-router-dom";
 import image from "../src/modal.png"
-import Header from "./Header";
-const Website = () => {
+import Ask from "./Ask";
+const Dashboard = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div>
-<Header/>
+  <div className="header">
+    <div className="nav-2">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e0e543b0b992986f9f9c673da2c563b0404cab75008f75199c63f8de8f3f40fa?"
+        className="nav-img"
+      />
+      <div className="nav-head">
+        <span className="nav-head-4" onClick={()=> navigate("/getproject")}>Get projects</span>
+        <span className="nav-head-5">Onboard Talent</span>
+      </div>
+    </div>
+  </div>
     <div className="main">
       <div className="section">Success stories</div>
       <div className="section-span">Every success journey we’ve encountered.</div>
@@ -26,18 +44,18 @@ const Website = () => {
               </div>
               <button className="explore-tab">
                 <span className="explore-span" >Explore more</span>
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5dd013e82f62f4777d9a36a1528294d7ff56b4f973d6f4ab0c9d6fd8f7d9b82?"
-                  className="img-2"
-                />
+               
               </button>
+             
             </div>
           </div>
         </div>
       </div>
     </div>
+    <Ask/>
     </div>
+    
+    
   );
 };
-export default Website;
+export default Dashboard;

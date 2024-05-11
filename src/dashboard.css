@@ -1,0 +1,193 @@
+/* website */
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+
+.section {
+  color: #2da950;
+  
+  letter-spacing: -0.72px;
+  font: 400 36px/110% Covered By Your Grace, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+.section-span {
+  color: #1c1c1c;
+  text-align: center;
+  letter-spacing: -1.12px;
+  margin-top: 16px;
+  width: 588px;
+  font: 600 56px/67px Manrope, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .section-span {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 54px;
+  }
+}
+
+.container {
+  margin-top: 112px;
+  width: 100%;
+  max-width: 1192px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.section-container {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .section-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 67%;
+  margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.website-image {
+  aspect-ratio: 1.22;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .website-image {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .container-2 {
+    margin-top: 40px;
+  }
+}
+
+.span-text {
+  color: #1c1c1c;
+  letter-spacing: -0.8px;
+  font: 600 40px/48px Manrope, sans-serif;
+}
+
+.dot-8 {
+  align-self: start;
+  display: flex;
+  margin-top: 54px;
+  gap: 12px;
+}
+
+@media (max-width: 991px) {
+  .dot-8 {
+    margin-top: 40px;
+  }
+}
+
+.dot-1 {
+  background-color: #2da950;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+}
+
+.dot-2 {
+  background-color: #e4e3e3;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+}
+
+.dot-3 {
+  background-color: #e4e3e3;
+  border-radius: 50%;
+  width: 10px;
+  height: 11px;
+}
+
+.explore-tab {
+  justify-content: center;
+  border-radius: 100px;
+  background: linear-gradient(0deg, #1c1c1c 0%, #1c1c1c 100%),
+    linear-gradient(98deg, #1c1c1c 2.63%, #454444 105.2%);
+  display: flex;
+  margin-top: 130px;
+  gap: 16px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 31px 40px;
+}
+
+@media (max-width: 991px) {
+  .explore-tab {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+
+.explore-span {
+  font-family: Manrope, sans-serif;
+}
+
+.img-2 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 24px;
+  align-self: start;
+}

@@ -1,21 +1,22 @@
-import "./App.css";
-import Ask from "./Ask";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./Dashboard";
+import Box from "./Box";
 import Footer from "./Footer";
-import Header from "./Header";
-import Registration from "./Registration";
-import Website from "./Website";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-function App() {
+
+
+const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Website />} />
-        <Route path="/getproject" element={<Registration />} />
-        <Route path="/website" element={<Website />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route  path="/getproject" element={ <Box /> } />
+        <Route  path="/website" element={ <Dashboard /> } />
+        
       </Routes>
       <Footer/>
-    </Router>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
