@@ -201,6 +201,36 @@
     font-size: 30px;
   }
 }
+@media (max-width: 375px) {
+  .ask-content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .ask-column {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 96px;
+  }
+
+
+  .img {
+    display: none;
+
+  }
+
+
+
+  .ask-span-2 {
+    font-size: 30px;
+  }
+}
+
+
 
 @media (max-width: 425px) {
   .ask-content-2 {
@@ -215,7 +245,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    margin-left: 96px;
   }
+
 
   .img {
     display: none;
